@@ -19,6 +19,6 @@ upload the file to your usb rubber ducky ...
 ENJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOY       
 
 
-contact me on my facebook profile for more information 
+contact me on my facebook for more information 
 
 
