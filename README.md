@@ -5,6 +5,7 @@ the script makes a reverse shell attack  on windows by executing keystrokes and 
 
 you need : 
 a linux machine and other one with windows 
+
 configure the ssh key on your linux by entering the command : 
 
                 ssh-keygen  
