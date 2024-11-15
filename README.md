@@ -11,7 +11,8 @@ configure the ssh key on your linux by entering the command :
                 ssh-keygen  
 open a listener using the command : 
 
-                netcat -lvnp [your ip address] -p [port number] 
+ netcat -lvnp [your ip address] -p [port
+number] 
 
              
 upload the file to your usb rubber ducky ...
