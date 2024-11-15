@@ -11,7 +11,7 @@ configure the ssh key on your linux by entering the command :
                 ssh-keygen  
 open a listener using the command : 
 
- netcat -lvnp [your ip address] -p [port
+            netcat -lvnp [your ip address] -p [port
 number] 
 
              
