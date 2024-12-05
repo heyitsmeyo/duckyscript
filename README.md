@@ -1,5 +1,5 @@
 # duckyscript
-this is a ducky scipt ( that works on a usb rubber ducky) 
+this is a ducky scipt  for raspberry pi pico that works on a usb rubber ducky  
 
 the script makes a reverse shell attack  on windows by executing keystrokes and then it transmits the files to the reverse host which is linux using the scp protocol 
 
